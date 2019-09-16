@@ -1,0 +1,22 @@
+# continue with low level investigations
+
+- per thread control (implement)
+
+  - suspend, resume, status, stop, interrupt, suspend count
+  - investigate the above and resolve ambiguities in the oracle docs
+
+- error handling at the protocol level
+
+- stack trace
+
+- look at breakpoint API and make sure there are no surprises
+
+- this should be enough to implement a rudimentary debugger.
+
+   - list threads
+   - switch threads
+   - go / stop program
+   - break on class entry
+
+
+
